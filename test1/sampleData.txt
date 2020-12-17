@@ -1,0 +1,16 @@
+{
+	"concilName": "abc",
+	"bakerCouncilId": "k987y",
+	"troopRevenue": 9.0,
+	"products": [{
+		"code": "dsd",
+		"price": "5.55",
+		"inPersonEnabled": true,
+		"shippingEnabled": true
+	}],
+	"initalOrderDueDate": "2020-05-30",
+	"cookiefullfilmentDate": "2020-09-21"
+	
+	
+	#[message.inboundProperties.'http.query.params'.count == null ? $ {kafka.consumer,maxprefetch} : message.inboundProperties.'http.query.params'.count]
+	#[message.inboundProperties.'http.query.params'.startfrombeginning == null ? false : message.inboundProperties.'http.query.params'.startfrombeginning]
